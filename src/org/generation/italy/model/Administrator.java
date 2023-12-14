@@ -5,8 +5,13 @@ public class Administrator extends Account {
 
 	@Override
 	public String toString() {
-		return "Administrator [codiceBadge=" + codiceBadge + "]";
+		return "Administrator [codiceBadge=" + codiceBadge + ", username=" + username + ", password=" + password
+				+ ", nome=" + nome + ", cognome=" + cognome + "]";
 	}
+
+	
+
+	
 	
 	
 
