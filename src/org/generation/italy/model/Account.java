@@ -3,6 +3,15 @@ package org.generation.italy.model;
 public class Account {
 protected String username,password,nome,cognome;
 
+public Account(String username, String password, String nome, String cognome) {
+	super();
+	this.username = username;
+	this.password = password;
+	this.nome = nome;
+	this.cognome = cognome;
+}
+
+
 public boolean cambiaPassword( String vecchiaPassword, String nuovaPassword, String confermaNuovaPassword)
 {
 	
@@ -22,6 +31,8 @@ public boolean cambiaPassword( String vecchiaPassword, String nuovaPassword, Str
 	else
 		return false;
 }
+
+
 
 public String getUsername() {
 	return username;

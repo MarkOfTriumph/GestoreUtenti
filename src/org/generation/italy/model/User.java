@@ -9,6 +9,12 @@ public class User extends Account {
 				+ ", password=" + password + ", nome=" + nome + ", cognome=" + cognome + "]";
 	}
 
+	public User(String username, String password, String nome, String cognome,String dataRegistrazione, String nrTelefono) {
+		super(username, password, nome, cognome);
+		this.dataRegistrazione = dataRegistrazione;
+		this.nrTelefono = nrTelefono;
+	}
+
 	
 
 	

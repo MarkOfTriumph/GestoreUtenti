@@ -6,7 +6,6 @@ public class GestoreUtenti {
 	ArrayList<Account> elencoAccount;
 	
 	
-	//costruttore
 	public GestoreUtenti()
 	{
 	 elencoAccount= new ArrayList<>();
